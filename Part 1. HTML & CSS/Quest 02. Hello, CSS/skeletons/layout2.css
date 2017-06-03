@@ -10,15 +10,26 @@ body {
 
 .main {
 	background-color: skyblue;
+	position:absolute;
+	margin:0 auto;
+
 	/* TODO: 이 곳을 채우세요! */
 }
 
 .left {
 	background-color: pink;
+	width:200px;
+	position:absolute;
+	left:0px;
+
 	/* TODO: 이 곳을 채우세요! */
 }
 
 .right {
 	background-color: greenyellow;
+	width:300px;
+	position:absolute;
+	right:0px;
+
 	/* TODO: 이 곳을 채우세요! */
 }

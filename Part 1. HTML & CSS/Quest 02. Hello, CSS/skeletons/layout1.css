@@ -9,11 +9,19 @@ body {
 }
 
 aside {
+	position: absolute;
+	left:0;
 	background-color: pink;
+	width:200px;
+
+
 	/* TODO: 이 곳을 채우세요! */
 }
 
 .main {
 	background-color: skyblue;
+	position: relative;
+	margin:0 auto;
+
 	/* TODO: 이 곳을 채우세요! */
 }
