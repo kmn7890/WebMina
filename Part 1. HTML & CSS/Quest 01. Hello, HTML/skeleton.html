@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Git Hub Site</title>
+		<style>
+			body {background-color:white;}
+			h1 {color: blue;}
+			p {color: black;}
+		 </style>
+		<link rel="stylesheet" href="mystyle.css">
+		<script>
+		function myFunction{
+			document.getElementById("demo").innerHTML="Hello Javascript!";
+		}
+		</script>
+		<base>
+	</head>
+	<body>
+		<header>
+			<img scr="Github.jpg" alt="github icon" style="width:128px;height:128px;">
+			<form>This Repository
+				<input type="text" value="Search">
+				<input type="submit" value="Search">
+			</form>
+			<ul>
+				<li><a href="/explore">Explore</a></li>
+				<li><a href="/features">Features</a></li>
+				<li><a href="/enterprise">Enterprise</a></li>
+				<li><a href="/pricing">Pricing</a></li>
+			</ul>
+			</form>
+			<form action="/sign_up" method="get">
+				<input type="button" value="Sign up">
+			</form>
+			<form action="/sign_in" method="get">
+				<input type="button" value="Sign in">
+			</form>
+			<!-- TODO: 상단의 회색 부분은 어떻게 처리하면 좋을까요? -->
+		</header>
+
+		<section class="main">
+			<header class="main-header">
+				<h1><a href="/">KnowRe/WebDevCurriculum</a></h1>
+				<form action="/watch(서버에 보내서 count해야함)" method="post">
+					<input="button" value="Watch">
+				</form>
+				<form action="/star(서버에 보내서 count해야함)" method="post">
+					<input="button" value="Star">
+				</form>
+				<form action="/Fork(서버에 보내서 count해야함)" method="post">
+					<input="button" value="Fork">
+				</form>
+				<!-- TODO: 메인의 헤더 부분 -->
+			</header>
+
+			<section class="main-detail">
+				<div>
+					<p>KnowRe web development curriculum for noobs</p>
+					<div>
+						<ul>
+							<li><a href="">26 commits</a></li>
+							<li><a href="">2 branches</a></li>
+							<li><a href="">0 release</a></li>
+							<li><a href="">1 contributor</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<button type="button"><i>Branch:</i><span>2016</span></button>
+					</div>
+					#branch 2017-06 WebDevCurriculum +
+					<div>
+						<span>
+							<a href="">Pull request</a>
+							<a href="">Compare</a>
+						</span>
+						This branch is 5 commits ahead of master
+				  </div>
+
+					<div>
+						<span>
+							latest commit
+						<a href="">5ead7a7a36</a>
+						</span>
+						<span><span>Kivol</span><i>authored 19 hours ago</i></span>
+					</div>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<span><a href=""><span>Part 0. git</span>Quest 00. Hello, git</a></span>
+							</td>
+							<td>
+								<span><a href="">Quest 0 - Added checklist</a></span>
+							</td>
+							<td class="age">
+	              <span><time-ago datetime="2015-10-05T23:03:35Z">Oct 6, 2015</time-ago></span>
+	            </td>
+						</tr>
+					</tbody>
+				</table>
+				<div>
+					<h3>Readme.md</h3>
+					<article>
+						<ul>
+							<li>KowRe web development curriculum</li>
+						</ul>
+					</article>
+				</div>
+					<!-- TODO: 메인의 왼쪽 부분 -->
+				</div>
+
+				<aside>
+					<nav>
+						<a href="/code/">Code</a>
+						<a href="/issues/">Issues</a>
+	 					<a href="/requests/">Pull requests</a>
+						<a href="/pulse/">Pulse</a>
+						<a href="/graphs/">Graphs</a>
+					</nav>
+					<div>
+						<h4> HTTPS clone URL </h4>
+						<div>
+							<input type="text" value="https://github.com" readonly>
+							<button type="button">svg넣기</button>
+					  </div>
+						<h1>You can clone with HTTPS or Subversion</h1>
+					</div>
+					<button type="button">Clone in Desktop</button>
+					<button type="button">Download ZIP</button>
+					<!-- TODO: 메인의 오른쪽 메뉴 부분 -->
+				</aside>
+			</section>
+		</section>
+
+		<footer>
+			<div>
+				<ul>
+					<li><a href="">Status</a></li>
+					<li><a href="">API</a></li>
+					<li><a href="">Training</a></li>
+					<li><a href="">Shop</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Pricing</a></li>
+				</ul>
+				<a href=""><svg>tomcat사진</svg></a>
+				<ul>
+					<li>&copy; 2017 <span>GitHub</span>, Inc. </li>
+					<li><a href="">Terms</a></li>
+					<li><a href="">Privacy</a></li>
+					<li><a href="">Security</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Help</a></li>
+				</ul>
+			</div>
+			<!-- TODO: 하단의 Copyright, Terms, Privacy 등은 어떻게 처리하면 좋을까요? -->
+		</footer>
+	</body>
+</html>
